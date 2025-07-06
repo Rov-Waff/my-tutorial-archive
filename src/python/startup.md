@@ -32,4 +32,34 @@
 
 对于**Linux/华为遥遥领先电脑**用户，你的系统通常都自带了Python,找到你的系统的终端，输入`python3`就能启动Python解释器命令行工具，但这篇教程里基本不会使用这个命令行。
 
-对于Windows用户，请访问[Python官网](https://python.org),点击Download，在点击**Download Python 3.x.x**,
+对于Windows用户，请访问[Python官网](https://python.org),找到Download下的Latest: Python 3.xx.x，翻到底部，找到你需要的安装包
+
+<img src="../assets/python_download_1.png" alt="python_download_1" style="zoom: 67%;" />
+
+ <img src="../assets/python_download_2.png" alt="python_download_2" style="zoom:80%;" />
+
+安装的时候一定要把`Add to PATH...`这个勾选框给勾选上，否则一些命令可能不能执行
+
+> 我的演示均是在Linux下进行，Windows用户如果想要跟我统一口径，可以查一查如何使用WSL来在Windows下运行一个Linux的子系统。
+
+## 你的第一个程序
+
+新建一个文件，命名为Hello_World.py,在这个文件里写下你的第一行代码:
+
+```python
+print("Hello World!")
+```
+
+在该文件夹下打开打开命令行,Windows用户按<kbd>Shift</kbd>+<kbd>右键</kbd>，找到`在此处打开 Powershell`或`在此处打开命令提示符`就能打开命令行，在命令行里输入
+
+```
+python Hello_World.py
+```
+
+这行命令意思是运行程序文件`Hello_World.py`，然后程序就会输出：
+
+```
+Hello World!
+```
+
+**这是你的计算机程序在向这个世界问好**
